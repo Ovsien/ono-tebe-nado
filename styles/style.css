@@ -105,3 +105,33 @@ address {
 .no-letter-spacing {
   letter-spacing: 0;
 }
+
+.cover__description {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 79px;
+  bottom: 50px;
+  padding: 0 50px 0 78px;
+}
+
+.cover__description-text {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+
+.bet-button {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  line-height: 26px;
+  padding: 12px 32px;
+}
