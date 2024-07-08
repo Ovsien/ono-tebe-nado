@@ -26,7 +26,7 @@ header {
   list-style: none;
 }
 
-.header__link {
+.menu-link {
   text-underline-offset: 4px;
 }
 
@@ -292,10 +292,6 @@ footer {
   font-weight: 400;
   font-size: 18px;
   line-height: 21.13px;
-}
-
-.footer__menu-link {
-  text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
